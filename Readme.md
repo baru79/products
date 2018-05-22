@@ -1,46 +1,46 @@
-<h1>Para la ejecución del proyecto se deben realizar los siguientes pasos:</h1>
+<h1>For the execution of the project the following steps must be carried out:</h1>
 <ul>
 	<li>
-		<h2>Clonar el repo</h2>
-		<h3>Ejecutar en una terminal el siguiente comando:</h3>
+		<h2>Clone the repository</h2>
+		<h3>Execute the following command in a terminal:</h3>
 		<p>git clone https://github.com/baru79/products.git</p>
 	</li>
 	<hr>
 	<li>
 		<h2>Node</h2>
-		<p>Pre-requisito: Se debe tener node instalado</p>
-		<p>Mas info: https://nodejs.org/</p>
+		<p>Prerequisite: Must have node installed</p>
+		<p>More info: https://nodejs.org/</p>
 	</li>
 	<hr>
 	<li>
 		<h2>MongoDB</h2>
-		<p>Pre-requisito: Se debe tener mongodb instalado</p>
-		<p>En una terminal inicializar mongodb (ejemplo en iOS: sudo mongod)</p>
-		<p>Mas info: https://www.mongodb.com/</p>
+		<p>Prerequisite: Mongodb must be installed</p>
+		<p>In a terminal initialize mongodb (example in iOS: sudo mongod)</p>
+		<p>More info: https://www.mongodb.com/</p>
 	</li>
 	<hr>
 	<li>
-		<h2>Ejecutar localmente el servidor</h2>
-		<p>Dentro de la carpeta de <strong>products</strong>, en una terminal ejecutar:</p>
+		<h2>Run the server locally</h2>
+		<p>Inside the folder <strong>products</strong>, ejectute:</p>
 		<p>cd server</p>
 		<p>npm start</p>
 	</li>
 	<hr>
 	<li>
-		<h2>Ejecutar localmente el cliente</h2>
-		<p>Dentro de la carpeta de <strong>products</strong>, en una terminal ejecutar:</p>
+		<h2>Run the client locally</h2>
+		<p>Inside the folder <strong>products</strong>, ejectute:</p>
 		<p>cd client</p>
 		<p>npm start</p>
 	</li>
 	<hr>
 	<li>
-		<h2>Visualizar la app cliente</h2>
-		<p>En una nueva solapa del browser ejecutar <strong>http://localhost:4000/</strong></p>
+		<h2>Display the client app</h2>
+		<p>In a new tab of the browser run <strong>http://localhost:4000/</strong></p>
 	</li>
 	<hr>
 	<li>
-		<h2>Visualizar los datos del servidor</h2>
-		<p>En una nueva solapa del browser ejecutar <strong>http://localhost:3000/</strong></p>
+		<h2>Display server data</h2>
+		<p>In a new tab of the browser run <strong>http://localhost:3000/</strong></p>
 	</li>
 	<hr>
 </ul>
