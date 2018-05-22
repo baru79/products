@@ -1,0 +1,164 @@
+.itemProduct,
+.confirmationRejectMsj {
+	height: 150px;
+	width: 800px;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.23);
+  display: flex;
+  align-items: center;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.rejectButton,
+.editButton {
+	align-self: center;
+}
+
+.rejectButton > button,
+.editButton > button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.properties {
+	display: flex;
+	height: 100px;
+	width: 700px;
+}
+
+.name {
+  padding-left: 20px;
+	padding-top: 30px;
+}
+.name > input {
+	width: 100%;
+	color: #005B9C;
+	font-family: "Droid Sans";
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+
+.property {
+  list-style-type: none;
+	width: 100px;
+  margin: 20px;
+	align-self: center;
+}
+
+.property > li {
+	text-align: center;
+	width: 100px;
+  margin-top: 10px;
+}
+
+.property > li:nth-child(1) > span {
+  height: 14px;
+  color: #848484;
+  font-family: "Droid Sans";
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.property > li:nth-child(2) > input {
+	height: 19px;
+	width: 100px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.property > li:nth-child(2) > input[type='checkbox'] {
+	width: 20px;
+}
+
+.currency {
+	display: flex;
+}
+
+.borderBottomActive {
+	border: none;
+	border-bottom: 2px solid #23C324;
+}
+
+.borderBottomInactive {
+	border: none;
+	border-bottom: 2px solid #979797;
+}
+
+.msjRejected {
+	list-style-type: none;
+	height: 100px;
+	width: 700px;
+	border: 1px solid #D20F36;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 18px 22px 20px 22px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.msjRejected > span {
+	height: 20px;
+	width: 500px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.cancelMsjButton {
+	height: 19px;
+	width: 64px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	line-height: 19px;
+	border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.rejectMsjButton {
+	height: 19px;
+	width: 73px;
+	color: #D20F36;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+	border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.editButton > i,
+.rejectInactiveButton > i {
+	color: #848484;
+	font-size: 25px;
+	height: 33px;
+	width: 33px;
+}
+
+.rejectActiveButton > i {
+	color: red;
+	font-size: 25px;
+	height: 33px;
+	width: 33px;
+}
+
+.input {
+	border: none;
+	outline: none;
+}
+
+.inputError {
+	border: 1px solid #D20F36;
+	outline: none;
+}

@@ -1,0 +1,115 @@
+.content {
+  position: relative;
+  height: 456px;
+  width: 425px;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: '-50%';
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.23);
+  outline: none;
+}
+
+.title {
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.title > h1 {
+	max-width: 114px;
+	color: #005B9C;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+	text-align: center;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.wrapper1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 25px 30px;
+}
+
+.wrapper1 .form-row > input {
+	width: 100%;
+}
+
+.wrapper2 {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  border-bottom: 1px solid #979797;
+  height: 100px;
+}
+
+.wrapper2 > .form-row:nth-child(1) {
+  margin-right: auto;
+}
+
+.wrapper2 > .form-row:nth-child(2) {
+  margin-left: auto;
+}
+
+.wrapper2 .form-row > input {
+	max-width: 170px;
+  margin-bottom: 97px;
+}
+
+.form-row > label {
+  color: #333333;
+  font-family: "Droid Sans";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.input {
+  padding-left: 10px;
+  height: 43px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	box-shadow: inset 0 1px 0 0 #ECECEC;
+  outline: none;
+}
+
+.inputError {
+  padding-left: 10px;
+  height: 43px;
+  border: 1px solid #D20F36;
+  border-radius: 2px;
+	background-color: #FFFFFF;
+	box-shadow: inset 0 1px 0 0 #ECECEC;
+  outline: none;
+}
+
+.formRowButtons {
+  display: flex;
+}
+
+.buttonCancel {
+  margin-top: 22px;
+  height: 43px;
+	width: 160px;
+	border: 1px solid #777777;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+  margin-right: auto;
+  outline: none;
+}
+
+.buttonCreate {
+  margin-top: 22px;
+  height: 43px;
+	width: 160px;
+  border-radius: 2px;
+  background-color: #005B9C;
+  margin-left: auto;
+  outline: none;
+}

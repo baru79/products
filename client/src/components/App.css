@@ -1,0 +1,43 @@
+.pull-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h1 {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+nav {
+  margin: 5px 5px 50px;
+  padding: 10px;
+  display: flex;
+}
+
+.btnCrearProducto {
+  margin-left: auto;
+  vertical-align: top;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.btnCrearProducto > i {
+  font-size: 20px;
+  color: #005B9C;
+}
+
+.btnCrearProducto > span {
+	color: #005B9C;
+	font-family: "Droid Sans";
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 21px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.board_item {
+  list-style-type: none;
+}
